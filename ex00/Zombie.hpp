@@ -6,14 +6,14 @@
 /*   By: dario <dario@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/07 23:02:50 by dario             #+#    #+#             */
-/*   Updated: 2025/08/08 01:22:55 by dario            ###   ########.fr       */
+/*   Updated: 2025/08/08 01:28:08 by dario            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef __ZOMBIE_HPP__
-#define __ZOMBIE_HPP__
+#ifndef ZOMBIE_HPP
+# define ZOMBIE_HPP
 
-#include <string>
+# include <string>
 
 class Zombie
 {
@@ -21,11 +21,13 @@ class Zombie
 	Zombie(std::string zombieName);
 	~Zombie(void);
 
-	void announce(void);
+	void		announce(void);
 	
 	private:
 	std::string	name;
-
 };
+
+Zombie*	newZombie(std::string name);
+void	randomChump(std::string name);
 
 #endif

@@ -6,13 +6,13 @@
 /*   By: dario <dario@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/07 22:43:56 by dario             #+#    #+#             */
-/*   Updated: 2025/08/07 22:58:02 by dario            ###   ########.fr       */
+/*   Updated: 2025/08/08 01:28:20 by dario            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Zombie.hpp"
 
-Zombie* newZombie(std::string name)
+Zombie*	newZombie(std::string name)
 {
 	return (new Zombie(name));
 }
