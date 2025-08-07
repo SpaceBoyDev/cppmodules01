@@ -20,8 +20,7 @@ RM			=	rm -f
 
 VALFLAGS	=	--tool=helgrind --tool=drd
 
-SRCS		=	main.cpp newZombie.cpp randomChump.cpp \
-				Zombie.cpp Zombie.hpp
+SRCS		=	main.cpp newZombie.cpp randomChump.cpp Zombie.cpp
 
 OBJS		=	$(SRCS:.cpp=.o)
 
