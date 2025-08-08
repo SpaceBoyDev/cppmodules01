@@ -6,7 +6,7 @@
 /*   By: dario <dario@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/07 23:02:50 by dario             #+#    #+#             */
-/*   Updated: 2025/08/08 01:34:07 by dario            ###   ########.fr       */
+/*   Updated: 2025/08/08 23:52:51 by dario            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ class Zombie
 	void		announce(void);
 	
 	private:
-	std::string	name;
+	std::string	_name;
 };
 
 Zombie*	newZombie(std::string name);
