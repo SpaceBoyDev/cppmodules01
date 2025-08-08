@@ -6,15 +6,19 @@
 /*   By: dario <dario@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/09 00:02:47 by dario             #+#    #+#             */
-/*   Updated: 2025/08/09 00:11:34 by dario            ###   ########.fr       */
+/*   Updated: 2025/08/09 00:24:43 by dario            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "HumanB.hpp"
 
-HumanB::HumanB(std::string name) : _weapon(NULL), _name(name) {}
+HumanB::HumanB(std::string name) : _name(name), _weapon(NULL) {}
 
-void HumanB::setWeapon(Weapon newWeapon)
+HumanB::~HumanB()
+{
+}
+
+void HumanB::setWeapon(Weapon &newWeapon)
 {
 	_weapon = &newWeapon;
 }
