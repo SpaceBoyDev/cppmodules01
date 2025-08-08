@@ -6,11 +6,11 @@
 #    By: dario <dario@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/05/01 18:40:53 by dario             #+#    #+#              #
-#    Updated: 2025/08/08 23:08:29 by dario            ###   ########.fr        #
+#    Updated: 2025/08/08 23:23:11 by dario            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME		=	braiiiiiiinnnzzzz
+NAME		=	more_braiiiiiiinnnzzzz
 
 MAKEFLAGS	+=	--no-print-directory
 
